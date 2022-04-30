@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+#all-links {
+    margin-right: 23%;
+}
+
+
+#all-links.active,
+.right.active {
+    display: flex !important;
+}
+
+.nav-links,
+.right-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#beta {
+    font-size: x-small;
+    height: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 10px lightgrey;
+    width: 2rem;
+    border-radius: 4px;
+    color: #40196d;
+    font-weight: 450;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 0 10px lightgrey;
+    z-index: 1;
+    transition: 3sec;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: block;
+}
+
+.get-kuda {
+    padding: 1rem 2.5rem;
+    background-color: #40196d;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 27px;
+    width: 100px;
+}
+
+#logo-div {
+    margin-top: 0.2rem;
+    margin-left: 4rem;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nigeria-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(11, 156, 49, 0.3);
+    margin: 0 8px 0 15px;
+}
+
+.nigeria-icon img {
+    width: 17px;
+    height: 17px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.nigeria-icon10 {
+    display: none;
+}
+
+/* .nigeria-icon10 img {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 6px;
+    margin-bottom: 25px; */
+
+.right-nav {
+    margin-right: 3rem;
+}
+
+.right-nav li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 10px;
+    /* margin-bottom: 20rem; */
+    margin-left: 2rem;
+}
+
+.toggle-button .bars {
+    height: 2px;
+    width: 65%;
+    line-height: 2px;
+    background-color: #40196d;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    header {
+        width: 100%;
+    }
+
+    .logo {
+        width: 5rem;
+        height: 1.5rem;
+    }
+
+    #logo-div {
+        margin-top: 0.9rem;
+        margin-left: 1rem;
+    }
+
+    .nigeria-icon10 {
+        margin-bottom: 10rem;
+    }
+
+    .nigeria-icon1 img {
+        width: 17px;
+        height: 17px;
+        /* margin-left: 6px;
+        margin-top: 5px; */
+    }
+
+    #nigeria-icon-background {
+        width: 40px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgba(11, 156, 49, 0.3);
+        margin-right: 1rem;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+
+}

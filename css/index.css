@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+}
+
+.another-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem auto 10rem;
+  width: 80%;
+}
+
+.box {
+  height: 150px;
+  width: 350px;
+  color: #40196d;
+  border: 2px solid #fbfbfb;
+  padding-right: 17px;
+  padding-left: 20px;
+  padding-top: 15px;
+  box-shadow: 0 0 0.1px lightgrey;
+}
+
+.box-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.box-text {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.fees-as-clear-container {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  line-height: 25px;
+  width: 80%;
+}
+
+.get-kuda {
+  padding: 15px 40px;
+  background-color: #40196d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+header ul li a {
+  color: #40196d;
+}
+
+.heading2-div {
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 37px;
+}
+
+.image1-div {
+  padding: 0 4rem;
+}
+
+.image2-div {
+  margin-bottom: 150px;
+}
+
+.intro {
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  line-height: 28px;
+}
+
+.left-container2 {
+  padding-left: 13rem;
+  color: #40196d;
+  width: 50%;
+}
+
+.man-with-mic-div {
+  padding-right: 6rem;
+  margin: 0 auto 150px;
+}
+
+.man-with-mic-text-container {
+  padding-left: 13rem;
+  color: #40196d;
+  width: 50%;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+
+#ndic-logo {
+  /* margin-top: 25px; */
+  margin-left: 5px;
+}
+
+.open-link {
+  margin-top: 20px;
+}
+
+.open-link a {
+  border-bottom: 2px solid #40196d;
+  color: #40196d;
+  text-decoration: none;
+}
+
+.reduce-text {
+  font-size: 11px;
+  padding: 30px 0px;
+  color: #b2b1b9;
+  margin-bottom: 10px;
+}
+
+#right-arrow {
+  margin-left: 10px;
+}
+
+.right-container2 {
+  color: #40196d;
+  padding: 100px;
+  width: 50%;
+}
+
+.second-container {
+  margin-top: 11rem;
+  margin-left: 7rem;
+}
+
+.second-div {
+  padding-top: 18rem;
+}
+
+.shared-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem auto 0;
+  width: 80%;
+}
+
+#text-container {
+  color: black;
+}
+
+.text1-div {
+  width: 50%;
+  padding-left: 13rem;
+  padding-top: 18rem;
+  color: #40196d;
+}
+
+.third-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+  width: 80%;
+}
+
+.third-container-p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  line-height: 25px;
+  width: 80%;
+}
+
+.shared-container-text-main {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  line-height: 25px;
+  width: 80%;
+}
+
+#we-design {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #open-link a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+} */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+  }
+
+  .third-container-p {
+    margin: 0 auto;
+  }
+
+  .shared-container-text-main {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .text1-div {
+    padding-top: 120px;
+    width: 100%;
+    padding-left: 0.5rem;
+    text-align: center;
+  }
+
+  .box-container {
+    display: inline;
+    flex-wrap: nowrap;
+  }
+
+  .second-container {
+    margin-top: 2rem;
+  }
+
+  .second-container .box-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .third-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  .left-container2 {
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .box {
+    margin-top: 1rem;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+  }
+
+  .second-div {
+    display: flex;
+    place-content: center;
+  }
+
+  .second-div img {
+    margin-top: -10rem;
+
+  }
+
+  .image2-div {
+    padding-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  #we-design {
+    padding: 0 3rem;
+  }
+
+  #open-link {
+    margin-bottom: 2rem;
+  }
+
+
+  /* beginning of index-3 */
+  .another-container,
+  .shared-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  .man-with-mic-text-container {
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .man-with-mic-div {
+    padding-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .right-container2 {
+    /* text-align: center;
+    margin: 0 auto;
+    width: 100%; */
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 60%;
+  }
+
+  .heading2-div h2 {
+    font-size: 35px;
+  }
+
+  .text1-div h1 {
+    font-size: 35px;
+  }
+
+  .image1-div {
+    padding: 0 4rem;
+
+  }
+
+  .fees-as-clear-container {
+    margin: 0 auto;
+  }
+
+  #we-are-serious {
+    margin: 0 auto;
+  }
+
+  .fees-as-clear-header h2 {
+    font-size: 35px;
+    padding-left: px;
+  }
+}
+
+.mobile-header {
+  display: none;
+
+}
+
+
+
+/*  viewport less than or equal to 800px */
+@media screen and (max-width:800px) {
+
+  #all-links,
+  .right {
+    display: none;
+    width: 100%;
+  }
+
+  .third-container-p {
+    margin-left: 3px;
+    width: 100%;
+  }
+
+  .shared-container-text-main {
+    margin-left: 3px;
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .right-nav {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-links li,
+  .right-nav li {
+    padding: 1rem 0;
+  }
+
+  #all-links.active,
+  .right.active {
+    display: flex !important;
+  }
+
+  .another-container,
+  .shared-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  .man-with-mic-text-container {
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .man-with-mic-div {
+    padding-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .right-container2 {
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 120%;
+  }
+
+  .heading2-div h2 {
+    font-size: 35px;
+  }
+
+  .text1-div h1 {
+    font-size: 35px;
+  }
+
+  .image1-div {
+    padding: 0 4rem;
+
+  }
+
+  .fees-as-clear-container {
+    margin: 0 auto;
+  }
+
+
+
+
+  .fees-as-clear-header h2 {
+    font-size: 35px;
+    padding-left: px;
+  }
+}
+
+@media screen and (max-width:800px) {}
